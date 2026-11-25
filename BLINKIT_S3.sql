@@ -195,9 +195,9 @@ FILE_FORMAT = (FORMAT_NAME = 'BLINKIT_DB.S3_SCHEMA.CSV_ISO_FF') ;
  
 alter pipe BLINKIT_DB.S3_SCHEMA.BLINKIT_PIPE_ORDERS_ITEMS refresh;
  
-select * from S3_SCHEMA.BLINKIT_ORDERS;
+select * from BLINKIT_DB.S3_SCHEMA.BLINKIT_ORDERS;
 
-truncate table S3_SCHEMA.BLINKIT_ORDER_ITEMS;
+truncate table BLINKIT_DB.S3_SCHEMA.BLINKIT_ORDER_ITEMS;
 
 -------------------------------------------------------------------------------------------------------
 
@@ -218,9 +218,9 @@ FILE_FORMAT = (FORMAT_NAME = 'BLINKIT_DB.S3_SCHEMA.CSV_ISO_FF') ;
  
 alter pipe BLINKIT_DB.S3_SCHEMA.BLINKIT_PIPE_ORDERS_ITEMS refresh;
  
-select * from S3_SCHEMA.BLINKIT_MARKETING_PERFORMANCE;
+select * from BLINKIT_DB.S3_SCHEMA.BLINKIT_MARKETING_PERFORMANCE;
 
-truncate table S3_SCHEMA.BLINKIT_MARKETING_PERFORMANCE;
+truncate table BLINKIT_DB.S3_SCHEMA.BLINKIT_MARKETING_PERFORMANCE;
 
 
  ---------------------------------------------------------------------------------------------------------
@@ -242,9 +242,9 @@ FILE_FORMAT = (FORMAT_NAME = 'BLINKIT_DB.S3_SCHEMA.CSV_ISO_FF') ;
  
 alter pipe BLINKIT_DB.S3_SCHEMA.BLINKIT_PIPE_ORDERS_ITEMS refresh;
  
-select * from S3_SCHEMA.BLINKIT_DELIVERY_PERFORMANCE;
+select * from BLINKIT_DB.S3_SCHEMA.BLINKIT_DELIVERY_PERFORMANCE;
 
-truncate table S3_SCHEMA.BLINKIT_DELIVERY_PERFORMANCE;
+truncate table SBLINKIT_DB.3_SCHEMA.BLINKIT_DELIVERY_PERFORMANCE;
 
 -------------------------------------------------------------------------------------------------------
 
